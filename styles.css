@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #2a0385;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
@@ -11,10 +11,11 @@
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
+    background-color: rgb(255, 255, 255);
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #a0ecff;
 }
 
 
@@ -24,13 +25,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #2a0385;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundoAzul.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -103,7 +104,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #a0ecff;
 
 }
 
@@ -132,7 +133,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #2a0385;
     border: none;
     font-weight: bold;
 }
